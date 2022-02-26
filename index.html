@@ -14,7 +14,21 @@
   <form action="/pets" method="post">
     <label for="name">Name</label>
     <input type="text" name="pet_name" id="name">
+    <label for="type">Type</label>
+    <select name="pet_type" id="type">
 
+      <option value="1">Cat</option>
+      <option value="2">Dog</option>
+      <option value="3">Hamster</option>
+      <option value="4">Other</option>
+      <option value="5">Zebra</option>
+    </select>
+    <label for="bio">Biography</label>
+    <textarea name="pet_bio" id="bio" cols="30" rows="10" ></textarea>
+    <label for="owner_email">Owner's Email</label>
+    <input type="email" name="pet_owner_email" id="owner_email">
+    <input type="submit" name="" id="new-pet-submit-button" value="Create new pet">
+    <input type="reset" name="" id="reset" value="Reset">
   </form>
 </body>
 
